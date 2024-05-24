@@ -15,6 +15,6 @@ Scenario("reviewing a restaurant", async ({ I }) => {
 
     I.click(locate("#submit"));
 
-    I.waitForText(fillReviewName, ".name");
-    I.waitForText(fillReviewDescription, ".review");
+    I.waitForText(fillReviewName, 5, ".name");
+    I.waitForText(fillReviewDescription, 5, ".review");
 });
