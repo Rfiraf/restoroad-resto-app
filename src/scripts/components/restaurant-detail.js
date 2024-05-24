@@ -88,7 +88,7 @@ class RestaurantDetail extends HTMLElement {
                <picture>
                     <source media="(min-width: 1280px)" srcset="https://restaurant-api.dicoding.dev/images/large/${this._restaurant.pictureId}">
                     <source media="(min-width: 760px)" srcset="https://restaurant-api.dicoding.dev/images/medium/${this._restaurant.pictureId}">
-                    <img class="lazyload" src="https://restaurant-api.dicoding.dev/images/small/${this._restaurant.pictureId}" alt="${this._restaurant.name} Restaurant Picture" crossorigin="anonymous"/>
+                    <img class="lazyload" data-src="https://restaurant-api.dicoding.dev/images/small/${this._restaurant.pictureId}" alt="${this._restaurant.name} Restaurant Picture" crossorigin="anonymous"/>
                </picture>
                <span class="rating"><i class="fa-solid fa-star"></i> ${this._restaurant.rating}</span>
           </div>
