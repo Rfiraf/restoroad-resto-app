@@ -1,0 +1,46 @@
+{
+	"id": "restoroad-pwa-1",
+	"start_url": "./index.html",
+	"name": "RESTOROAD",
+	"short_name": "RESTOROAD",
+	"description": "RESTOROAD PWA",
+	"display": "standalone",
+	"background_color": "#262626",
+	"theme_color": "#262626",
+	"icons": [
+		{
+			"src": "images/icons/restoroad-icon-512.png",
+			"sizes": "512x485",
+			"type": "image/png",
+			"purpose": "any"
+		},
+
+        {
+			"src": "images/icons/restoroad-icon-150.png",
+			"sizes": "150x150",
+			"type": "image/png",
+			"purpose": "any"
+		},
+
+        {
+			"src": "images/icons/restoroad-icon-128.png",
+			"sizes": "128x121",
+			"type": "image/png",
+			"purpose": "any"
+		},
+        
+        {
+			"src": "images/icons/restoroad-icon-64.png",
+			"sizes": "64x61",
+			"type": "image/png",
+			"purpose": "any"
+		},
+
+        {
+			"src": "images/icons/restoroad-icon-32.png",
+			"sizes": "32x30",
+			"type": "image/png",
+			"purpose": "any"
+		}
+	]
+}
